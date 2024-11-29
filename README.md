@@ -1,32 +1,32 @@
 # KTL_project_09_Pathology_ProstateCancer_Segmentation
 
-./KTL_project_09_Pathology_ProstateCancer_Segmentation
-|-- Code
-|   |   |-- 01.\ data_preprocessing_example-checkpoint.ipynb
-|   |   |-- 02.\ Training-checkpoint.ipynb
-|   |   |-- 03.\ Evaluation-checkpoint.ipynb
-|   |   |-- Preprocessing-checkpoint.py
-|   |-- 01.\ data_preprocessing_example.ipynb
-|   |-- 02.\ Training.ipynb
-|   |-- 03.\ Evaluation.ipynb
-|   |-- Preprocessing.py
-|   |-- __pycache__
-|   |   |-- Preprocessing.cpython-39.pyc
-|   |   |-- _utils_torch.cpython-39.pyc
-|   |   |-- loss.cpython-39.pyc
-|   |   |-- model_torch.cpython-39.pyc
-|   |   `-- modules_torch.cpython-39.pyc
-|   |-- _utils_torch.py
-|   |-- loss.py
-|   |-- model_torch.py
-|   |-- modules_torch.py
-|   `-- output
-|       |-- model_final.pth
-`-- Data
-    |-- img
-    |   |-- ###.tiff
-    `-- label
-        |-- ###_mask.tiff
+        ./KTL_project_09_Pathology_ProstateCancer_Segmentation
+        |-- Code
+        |   |   |-- 01.\ data_preprocessing_example-checkpoint.ipynb
+        |   |   |-- 02.\ Training-checkpoint.ipynb
+        |   |   |-- 03.\ Evaluation-checkpoint.ipynb
+        |   |   |-- Preprocessing-checkpoint.py
+        |   |-- 01.\ data_preprocessing_example.ipynb
+        |   |-- 02.\ Training.ipynb
+        |   |-- 03.\ Evaluation.ipynb
+        |   |-- Preprocessing.py
+        |   |-- __pycache__
+        |   |   |-- Preprocessing.cpython-39.pyc
+        |   |   |-- _utils_torch.cpython-39.pyc
+        |   |   |-- loss.cpython-39.pyc
+        |   |   |-- model_torch.cpython-39.pyc
+        |   |   `-- modules_torch.cpython-39.pyc
+        |   |-- _utils_torch.py
+        |   |-- loss.py
+        |   |-- model_torch.py
+        |   |-- modules_torch.py
+        |   `-- output
+        |       |-- model_final.pth
+        `-- Data
+            |-- img
+            |   |-- ###.tiff
+            `-- label
+                |-- ###_mask.tiff
 
 
 ## Data Description
