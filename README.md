@@ -33,7 +33,23 @@
 1. 학습용 데이터 (/Data/...)
    - 이미지와 마스크의 파일명이 100% 매칭되지 않음.
    - 파일명을 기준으로 동일하게 대응되는 이미지와 마스크 파일만 Load.
+## Prerequisites
+Before you begin, ensure you have met the following requirements:
+- Linux or macOS
+- Python 3
+- CPU or NVIDIA GPU + CUDA CuDNN
+- Other dependencies can be installed using `environment.yml`
+  
+## Getting Started
+### Installation
 
+- Clone this repo:
+```bash
+git clone https://github.com/ktlProject0/KTL_project_09_Pathology_ProstateCancer_Segmentation.git
+cd KTL_project_09_Pathology_ProstateCancer_Segmentation
+```
+ - You can create a new Conda environment using `conda env create -f environment.yml`.
+   
 ## Code Description
 ## Data_preprocessing_example
   - 고해상도 병리데이터 전처리 튜토리얼(예시) 코드
